@@ -2,6 +2,6 @@
 import { render } from 'solid-js/web';
 
 import './index.css';
-import App from './App';
+import TodoList from './TodoList';
 
-render(() => <App />, document.getElementById('root'));
+render(() => <TodoList />, document.getElementById('root'));
